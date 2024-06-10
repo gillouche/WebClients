@@ -32,7 +32,7 @@ const WebAppLink = () => {
     };
 
     // translator: The whole sentence is "Open Proton Mail in the web app", width is limited since it's displayed in the login screen
-    return <Button shape="underline" color="norm" onClick={handleClick}>{c('Free trial dekstop').t`web app`}</Button>;
+    return <Button shape="underline" color="norm" onClick={handleClick}>{c('Free trial desktop').t`web app`}</Button>;
 };
 
 const InboxDesktopFreeTrialEnded = () => {
